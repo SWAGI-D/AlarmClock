@@ -6,16 +6,12 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import androidx.core.app.NotificationCompat
-import androidx.core.app.NotificationManagerCompat
-import androidx.core.content.ContextCompat.getSystemService
 import android.R
 import android.app.Notification
 import android.app.NotificationChannel
 import android.os.Build
 
-
 class AlarmReceiver : BroadcastReceiver() {
-
 
     override fun onReceive(context: Context, intent: Intent) {
 
